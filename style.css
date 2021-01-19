@@ -1,0 +1,137 @@
+/*css du header fini*/
+#header
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+/*titres et logo fini*/
+#titre_principal h1 
+{
+  
+  font-size: 1.5em;
+}
+h2
+{
+    
+    font-size: 1em;
+}
+/*navigation fini*/
+#header nav ul
+{
+    
+    list-style-type: none;
+    display: flex;
+    
+}
+#header  nav li
+{
+    margin-right: 20px;
+}
+#header nav a
+{
+    color: black;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    text-decoration: none;
+} 
+#header nav a:hover
+{
+    color: #0065fc;
+    border-top: 3px solid ;
+}
+/*barre de recherche*/
+#recherche
+{
+    width: 40%;
+    display: flex;    
+}
+input
+{      
+    border:none;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 0px 7px 7px 0px;    
+    font-size: 1em;
+    font-weight: bold;
+}
+.fa-map-marker-alt
+{
+    padding: 10px 10px 10px 10px ;
+    border-radius: 7px 0px 0px 7px;
+    background-color: #f2f2f2;
+}
+/*ne plus toucher*/
+.fa-info
+{
+    color: #0065fc;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: #f2f2f2;
+    padding: 5px 10px 5px 10px;
+}
+
+/*filtre*/
+#filtres ul
+{
+    list-style-type: none;
+    display: flex ; 
+    width: 50%;
+    justify-content: space-between;
+
+           
+}
+.fa-map-marker-alt
+{
+    border: 1px solid ;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f2f2f2;
+}
+.fa-money-bill-wave
+{
+    color: #0065fc;
+    background-color: #deebff;
+    padding: 8px;
+    border-radius: 25px;
+}
+.fa-child
+{
+    color: #0065fc;
+    background-color: #deebff;
+    padding: 8px 10px 8px 10px;
+    border-radius: 25px;
+}
+.fa-heart
+{
+    color: #0065fc;
+    background-color: #deebff;
+    padding: 8px;
+    border-radius: 25px;
+}
+.fa-dog
+{
+    color: #0065fc;
+    background-color: #deebff;
+    padding: 8px;
+    border-radius: 25px;
+}
+#filtres nav a:hover 
+{    
+    background-color: #deebff;    
+    padding: 8px 0px 8px 0px;
+    border-radius: 25px  25px 25px 25px;
+
+    
+}
+#filtres a:link
+{
+    text-decoration: none;
+    color: black;
+}
+#filtres nav li
+{
+    
+    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+}
+
