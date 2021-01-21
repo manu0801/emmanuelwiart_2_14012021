@@ -141,17 +141,6 @@ input
     justify-content: space-around;
 }
 
-
-
-.top
-{
-    background-color: #f2f2f2;
-    height: 470px;
-    width: 350px ;
-    border-radius: 15px;
-
-
-}
 .hebergement
 {
    width: 700px;
@@ -384,4 +373,120 @@ h1
     grid-area: 4 / 1 / 5 / 4 ;
     font-size: 10px;
     padding: 5px ;
+}
+
+.top
+{
+    background-color: #f2f2f2;
+    height: 470px;
+    width: 350px ;
+    border-radius: 15px;
+    display: grid;
+    grid-template: 70px 120px 10px 120px 10px 120px 20px / 25px 150px 150px 25px 
+}
+.top h1
+{
+   grid-area: 1 / 2 / 2 / 4 ;
+    font-size: 20px;
+   padding: 10px 10px 10px 0px;
+   font-weight: 700;
+}
+.topcarte1
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    display: grid;
+    grid-area: 2 / 2 / 3 / 4 ;
+    grid-template: 50px 40px 30px / 100px 200px ;
+    border-radius: 15px;
+
+}
+.topimg1
+{
+    grid-area: 1 / 1 /4 / 2;
+    background: url(images/soleil\ du\ matin.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid white;
+}
+.topinfo1
+{
+    grid-area: 1 / 2 / 2 / 3 ;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px ;
+}
+.topprix1
+{
+    grid-area: 2 / 2 / 3 / 3  ;
+    font-size: 10px;
+    padding: 10px;
+}
+.topcarte2
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    display: grid;
+    grid-area: 4 / 2 / 5 / 4 ;
+    grid-template: 50px 40px 30px / 100px 200px ;
+    border-radius: 15px;
+
+}
+.topimg2
+{
+    grid-area: 1 / 1 /4 / 2;
+    background: url(images/aucoeurdeleau.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid white;
+}
+.topinfo2
+{
+    grid-area: 1 / 2 / 2 / 3 ;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px ;
+}
+.topprix2
+{
+    grid-area: 2 / 2 / 3 / 3  ;
+    font-size: 10px;
+    padding: 10px;
+}
+.topcarte3
+{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    display: grid;
+    grid-area: 6 / 2 / 7 / 4 ;
+    grid-template: 50px 40px 30px / 100px 200px ;
+    border-radius: 15px;
+
+}
+.topimg3
+{
+    grid-area: 1 / 1 /4 / 2;
+    background: url(images/bleuetblanc.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid white;
+}
+.topinfo3
+{
+    grid-area: 1 / 2 / 2 / 3 ;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px ;
+}
+.topprix3
+{
+    grid-area: 2 / 2 / 3 / 3  ;
+    font-size: 10px;
+    padding: 10px;
 }
