@@ -668,3 +668,40 @@ h2
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
 } 
+
+#navfooter
+{
+    width: 1050px;
+    height: 200px;
+    display: flex;
+    padding: 25px ;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+.apropos li 
+{
+    list-style-type: none;
+    
+}
+.Noshebergement li
+{
+    list-style-type: none;
+}
+.assistance li
+{
+    list-style-type: none;
+}
+#navfooter nav a
+{
+    color: black;
+    font-size: 0.5em;
+    padding-bottom: 10px;
+    text-decoration: none;
+} 
+#navfooter nav a:hover
+{
+    color: #0065fc;
+    
+}
