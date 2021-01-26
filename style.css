@@ -144,15 +144,16 @@ input
 {
     display: flex;
     justify-content: space-around;
+    width: auto;
 }
 .hebergement
 {
-   width: 850px;
+   width: 830px;
    height: 520px;
    display: grid;
    background-color: #f2f2f2;
    border-radius: 15px;
-   grid-template:  70px 185px 10px 185px 70px / 25px 260px 10px 260px 10px 260px 25px; 
+   grid-template:  70px 185px 10px 185px 70px / 30px 250px 10px 250px 10px 250px 30px; 
 }
 h1
 {
@@ -170,12 +171,12 @@ h2
 
 .carte1
 {
-    width: 260px;
+    width: 250px;
     height: 185px;
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 86px);    
+    /repeat(3, 83px);    
     border-radius: 15px ;
     grid-area: 2 / 2 / 3 / 3 ;  
 
@@ -215,12 +216,12 @@ h2
 .carte2
 
 {
-    width: 260px;
+    width: 250px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,86px);    
+    /repeat(3,83px);    
     border-radius: 15px ; 
     grid-area: 2 / 4 / 4 / 5; 
 
@@ -251,12 +252,12 @@ h2
 }
 .carte3
 {
-    width: 260px;
+    width: 250px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 86px);    
+    /repeat(3, 83px);    
     border-radius: 15px ; 
     grid-area: 2 / 6 / 4 / 7; 
 
@@ -287,12 +288,12 @@ h2
 }
 .carte4
 {
-    width: 260px;
+    width: 250px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,86px);    
+    /repeat(3,83px);    
     border-radius: 15px ; 
     grid-area: 4 / 2 / 6 / 3; 
 
@@ -323,12 +324,12 @@ h2
 }
 .carte5
 {
-    width: 260px;
+    width: 250px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,86px);    
+    /repeat(3,83px);    
     border-radius: 15px ; 
     grid-area: 4 / 4 / 6 / 5; 
 
@@ -359,12 +360,12 @@ h2
 }
 .carte6
 {
-    width: 260px;
+    width: 250px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,86px);    
+    /repeat(3,83px);    
     border-radius: 15px ; 
     grid-area: 4 / 6 / 6 / 7; 
 
@@ -398,7 +399,7 @@ h2
 {
     background-color: #f2f2f2;
     height: 520px;
-    width: 420px ;
+    width: 400px ;
     border-radius: 15px;
     display: grid;
     grid-template: 70px 135px 10px 135px 10px 135px 20px / 25px 150px 150px 25px 
