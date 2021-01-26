@@ -1,4 +1,9 @@
 /*css du header fini*/
+body
+{
+    width: 1270px;
+    margin: auto;
+}
 #header
 {
     
@@ -142,12 +147,12 @@ input
 }
 .hebergement
 {
-   width: 700px;
+   width: 850px;
    height: 520px;
    display: grid;
    background-color: #f2f2f2;
    border-radius: 15px;
-   grid-template:  70px 185px 10px 185px 70px / 25px 210px 10px 210px 10px 210px 25px; 
+   grid-template:  70px 185px 10px 185px 70px / 25px 260px 10px 260px 10px 260px 25px; 
 }
 h1
 {
@@ -165,12 +170,12 @@ h2
 
 .carte1
 {
-    width: 210px;
+    width: 260px;
     height: 185px;
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 70px);    
+    /repeat(3, 86px);    
     border-radius: 15px ;
     grid-area: 2 / 2 / 3 / 3 ;  
 
@@ -210,12 +215,12 @@ h2
 .carte2
 
 {
-    width: 210px;
+    width: 260px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,70px);    
+    /repeat(3,86px);    
     border-radius: 15px ; 
     grid-area: 2 / 4 / 4 / 5; 
 
@@ -246,12 +251,12 @@ h2
 }
 .carte3
 {
-    width: 210px;
+    width: 260px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 70px);    
+    /repeat(3, 86px);    
     border-radius: 15px ; 
     grid-area: 2 / 6 / 4 / 7; 
 
@@ -282,12 +287,12 @@ h2
 }
 .carte4
 {
-    width: 210px;
+    width: 260px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,70px);    
+    /repeat(3,86px);    
     border-radius: 15px ; 
     grid-area: 4 / 2 / 6 / 3; 
 
@@ -318,12 +323,12 @@ h2
 }
 .carte5
 {
-    width: 210px;
+    width: 260px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,70px);    
+    /repeat(3,86px);    
     border-radius: 15px ; 
     grid-area: 4 / 4 / 6 / 5; 
 
@@ -354,12 +359,12 @@ h2
 }
 .carte6
 {
-    width: 210px;
+    width: 260px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,70px);    
+    /repeat(3,86px);    
     border-radius: 15px ; 
     grid-area: 4 / 6 / 6 / 7; 
 
@@ -393,7 +398,7 @@ h2
 {
     background-color: #f2f2f2;
     height: 520px;
-    width: 350px ;
+    width: 420px ;
     border-radius: 15px;
     display: grid;
     grid-template: 70px 135px 10px 135px 10px 135px 20px / 25px 150px 150px 25px 
@@ -407,12 +412,12 @@ h2
 }
 .topcarte1
 {
-    width: 300px;
+    width: 360px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 2 / 2 / 3 / 4 ;
-    grid-template: 55px 45px 35px / 100px 200px ;
+    grid-template: 55px 45px 35px / 160px 200px ;
     border-radius: 15px;
 
 }
@@ -440,12 +445,12 @@ h2
 }
 .topcarte2
 {
-    width: 300px;
+    width: 360px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 4 / 2 / 5 / 4 ;
-    grid-template: 55px 45px 35px / 100px 200px ;
+    grid-template: 55px 45px 35px / 160px 200px ;
     border-radius: 15px;
 
 }
@@ -473,12 +478,12 @@ h2
 }
 .topcarte3
 {
-    width: 300px;
+    width: 360px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 6 / 2 / 7 / 4 ;
-    grid-template: 55px 45px 35px / 100px 200px ;
+    grid-template: 55px 45px 35px / 160px 200px ;
     border-radius: 15px;
 
 }
@@ -506,10 +511,11 @@ h2
 }
 .activites
 {
-    width: 1050px;
-    height: 520px;
+    width: auto;
+    height: 600px;
     display: grid;
-    grid-template: 70px 120px 30px 100px 50px 120px 30px / 25px 232px 20px 232px 20px 232px 20px 232px 25px;
+    justify-content: right;
+    grid-template: 70px 150px 30px 120px 50px 150px 30px /  300px 20px 300px 20px 300px 20px 300px ;
     
     
 }
@@ -523,10 +529,10 @@ h2
 }
 .activites1
 {
-    width: 232px ;
-    height: 450px ;
+    width: 300px ;
+    height: 500px ;
     display: grid;
-    grid-template:  400px 50px / 232px ;
+    grid-template:  450px 50px / 300px ;
     grid-area: 2 / 2 / 8 / 3;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
@@ -550,10 +556,10 @@ h2
 
 .activites2
 {
-    width: 232px ;
+    width: 300px ;
     height: 200px ;
     display: grid;
-    grid-template:  150px 50px / 232px ;
+    grid-template:  150px 50px / 300px ;
     grid-area: 2 / 4 / 5 / 5;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
@@ -576,10 +582,10 @@ h2
 
 .activites3
 {
-    width: 232px ;
+    width: 300px ;
     height: 150px ;
     display: grid;
-    grid-template:  100px 50px / 232px ;
+    grid-template:  100px 50px / 300px ;
     grid-area: 6 / 4 / 8 / 5;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
@@ -602,10 +608,10 @@ h2
 
 .activites4
 {
-    width: 232px ;
-    height: 450px ;
+    width: 300px ;
+    height: 500px ;
     display: grid;
-    grid-template:  400px 50px / 232px ;
+    grid-template:  450px 50px / 300px ;
     grid-area: 2 / 6 / 8 / 7;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
@@ -628,10 +634,10 @@ h2
 }
 .activites5
 {
-    width: 232px ;
+    width: 300px ;
     height: 150px ;
     display: grid;
-    grid-template:  100px 50px / 232px ;
+    grid-template:  100px 50px / 300px ;
     grid-area: 2 / 8 / 4 / 9;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
@@ -654,10 +660,10 @@ h2
 
 .activites6
 {
-    width: 232px ;
+    width: 300px ;
     height: 200px ;
     display: grid;
-    grid-template:  150px 50px / 232px ;
+    grid-template:  150px 50px / 300px ;
     grid-area: 5 / 8 / 7 / 9;
     border-radius: 15px;
     box-shadow: 0px 10px 20px rgba(0,0, 0, 0.5);
