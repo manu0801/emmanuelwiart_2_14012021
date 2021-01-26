@@ -46,25 +46,48 @@ h2
     border-top: 3px solid ;
 }
 /*barre de recherche*/
-#recherche
-{
-    width: 40%;
-    display: flex;    
-}
-input
-{      
-    border:none;
-    padding: 10px 10px 10px 10px ;
-    border-radius: 0px 7px 7px 0px;    
-    font-size: 1em;
-    font-weight: bold;
-}
 .fa-map-marker-alt
 {
-    padding: 10px 10px 10px 10px ;
-    border-radius: 7px 0px 0px 7px;
+    
+    padding: 11px 10px 11px 10px ;
     background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #f2f2f2;
+    
+    
+
 }
+.recherche
+{
+    
+    width: 30% ;
+    justify-content: space-around;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    
+    
+}
+.champs
+{
+    border: none;
+    width: 218px;
+    height: 37px;
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+.bouton
+{
+    background-color: #0065fc;
+    width: 121px;
+    height: 40px;
+    font-size: 20px ;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 10px 10px 0px; 
+    font: white;       
+}
+
 /*ne plus toucher*/
 .fa-info
 {
@@ -86,13 +109,7 @@ input
 
            
 }
-.fa-map-marker-alt
-{
-    border: 1px solid ;
-    padding: 10px 10px 10px 10px ;
-    border-radius: 5px 0px 0px 5px;
-    background-color: #f2f2f2;
-}
+
 .fa-money-bill-wave
 {
     color: #0065fc;
@@ -149,11 +166,11 @@ input
 .hebergement
 {
    width: 830px;
-   height: 520px;
+   height: 550px;
    display: grid;
    background-color: #f2f2f2;
    border-radius: 15px;
-   grid-template:  70px 185px 10px 185px 70px / 30px 250px 10px 250px 10px 250px 30px; 
+   grid-template:  70px 185px 25px 185px 70px / 30px 240px 25px 240px 25px 240px 30px; 
 }
 h1
 {
@@ -171,12 +188,12 @@ h2
 
 .carte1
 {
-    width: 250px;
+    width: 240px;
     height: 185px;
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 83px);    
+    /repeat(3, 80px);    
     border-radius: 15px ;
     grid-area: 2 / 2 / 3 / 3 ;  
 
@@ -216,12 +233,12 @@ h2
 .carte2
 
 {
-    width: 250px;
+    width: 240px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,83px);    
+    /repeat(3,80px);    
     border-radius: 15px ; 
     grid-area: 2 / 4 / 4 / 5; 
 
@@ -252,12 +269,12 @@ h2
 }
 .carte3
 {
-    width: 250px;
+    width: 240px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 83px);    
+    /repeat(3, 80px);    
     border-radius: 15px ; 
     grid-area: 2 / 6 / 4 / 7; 
 
@@ -288,12 +305,12 @@ h2
 }
 .carte4
 {
-    width: 250px;
+    width: 240px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,83px);    
+    /repeat(3,80px);    
     border-radius: 15px ; 
     grid-area: 4 / 2 / 6 / 3; 
 
@@ -324,12 +341,12 @@ h2
 }
 .carte5
 {
-    width: 250px;
+    width: 240px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,83px);    
+    /repeat(3,80px);    
     border-radius: 15px ; 
     grid-area: 4 / 4 / 6 / 5; 
 
@@ -360,12 +377,12 @@ h2
 }
 .carte6
 {
-    width: 250px;
+    width: 240px;
     height: 185px;    
     background-color: white;
     display: grid;
     grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,83px);    
+    /repeat(3,80px);    
     border-radius: 15px ; 
     grid-area: 4 / 6 / 6 / 7; 
 
@@ -398,11 +415,11 @@ h2
 .top
 {
     background-color: #f2f2f2;
-    height: 520px;
+    height: 550px;
     width: 400px ;
     border-radius: 15px;
     display: grid;
-    grid-template: 70px 135px 10px 135px 10px 135px 20px / 25px 150px 150px 25px 
+    grid-template: 70px 135px 25px 135px 25px 135px 20px / 25px 150px 150px 25px 
 }
 .top h1
 {
@@ -413,12 +430,12 @@ h2
 }
 .topcarte1
 {
-    width: 360px;
+    width: 345px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 2 / 2 / 3 / 4 ;
-    grid-template: 55px 45px 35px / 160px 200px ;
+    grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
 
 }
@@ -446,12 +463,12 @@ h2
 }
 .topcarte2
 {
-    width: 360px;
+    width: 345px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 4 / 2 / 5 / 4 ;
-    grid-template: 55px 45px 35px / 160px 200px ;
+    grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
 
 }
@@ -479,12 +496,12 @@ h2
 }
 .topcarte3
 {
-    width: 360px;
+    width: 345px;
     height: 135px;
     background-color: white;
     display: grid;
     grid-area: 6 / 2 / 7 / 4 ;
-    grid-template: 55px 45px 35px / 160px 200px ;
+    grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
 
 }
