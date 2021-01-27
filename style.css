@@ -1,9 +1,10 @@
-/*css du header fini*/
+/*police*/
 body
 {
     width: 1270px;
     margin: auto;
 }
+/*css du header*/
 #header
 {
     
@@ -21,7 +22,7 @@ h2
     
     font-size: 1em;
 }
-/*navigation fini*/
+/*navigation enlever la barre sur s'inscrire*/
 #header nav ul
 {
     
@@ -98,7 +99,7 @@ h2
     padding: 5px 10px 5px 10px;
 }
 
-/*filtre*/
+/*filtre manque le hover*/
 .filtres 
 {
   width: 70%;
@@ -142,7 +143,8 @@ h2
    
 }
 .fa-child
-{    color: #0065fc;
+{    
+    color: #0065fc;
     padding:  10px 11px 10px 11px;
     border-radius: 25px;
     background-color: #deebff;
@@ -190,6 +192,7 @@ h2
     justify-content: space-around;
     width: auto;
 }
+/*hebergement manque les etoiles*/
 .hebergement
 {
    width: 830px;
@@ -255,8 +258,6 @@ h2
     grid-area: 5 / 1 / 6 / 2;
     font-size: 0.8em;
 }
-
-
 .carte2
 
 {
@@ -438,7 +439,7 @@ h2
     font-size: 10px;
     padding: 5px ;
 }
-
+/*populaires manque le logo coin haut droit*/
 .top
 {
     background-color: #f2f2f2;
@@ -554,6 +555,8 @@ h2
     font-size: 10px;
     padding: 10px;
 }
+
+/*activité reste a finir la mises en pages certainement modifier les grilles*/
 .activites
 {
     width: auto;
@@ -728,6 +731,8 @@ h2
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
 } 
+
+/* footer reste a aligne le texte*/
 
 #navfooter
 {
