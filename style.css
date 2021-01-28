@@ -1,8 +1,16 @@
 /*police*/
+@font-face 
+{
+    font-family: 'raleway';
+    src :url(font/Raleway-Italic-VariableFont_wght.ttf),
+         url(font/Raleway-VariableFont_wght.ttf)
+    
+}
 body
 {
     width: 1270px;
     margin: auto;
+    font-family: 'raleway', Arial, Helvetica, sans-serif
 }
 /*css du header*/
 #header
@@ -67,8 +75,7 @@ h2
     width: 30% ;
     justify-content: space-around;
     border: 1px solid #f2f2f2;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
     
 }
 .champs
@@ -89,7 +96,8 @@ h2
     font-weight: 600;
     border: none;
     border-radius: 0px 10px 10px 0px; 
-    font: white;       
+    
+        
 }
 
 /*ne plus toucher*/
@@ -735,7 +743,7 @@ h2
     padding: 10px 10px 10px 5px ;    
 } 
 
-/* footer reste a aligne le texte*/
+/* footer fini*/
 
 #navfooter
 {
