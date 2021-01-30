@@ -464,6 +464,10 @@ h2
     font-size: 10px;
     padding: 5px ;
 }
+.star
+{
+    display: flex;
+}
 /*populaires manque le logo coin haut droit*/
 .top
 {
