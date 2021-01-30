@@ -3,7 +3,7 @@
 {
     font-family: 'raleway';
     src :url(font/Raleway-Italic-VariableFont_wght.ttf),
-         url(font/Raleway-VariableFont_wght.ttf)
+         
     
 }
 body
@@ -66,20 +66,16 @@ h2
 
 /*barre de recherche*/
 .fa-map-marker-alt
-{
-    
+{    
     padding: 11px 10px 11px 10px ;
     background-color: #f2f2f2;
-    border-radius: 10px 0px 0px 10px;
-    border: 1px solid #f2f2f2;
-    
-    
-
+    border-radius: 10px 0px 0px 10px;    
 }
 .recherche
 {
     
     width: 30% ;
+    height: 40px;
     justify-content: space-around;
     border: 1px solid #f2f2f2;
     border-radius: 10px;    
@@ -88,7 +84,7 @@ h2
 .champs
 {
     border: none;
-    width: 218px;
+    width: 210px;
     height: 37px;
     font-size: 1em;
     font-weight: 700;
@@ -97,7 +93,7 @@ h2
 .bouton
 {
     background-color: #0065fc;
-    width: 121px;
+    width: 125px;
     height: 40px;
     font-size: 20px ;
     font-weight: 600;
@@ -188,7 +184,7 @@ h2
 .checkbox4
 {
    border: 1px solid #f2f2f2;
-   width: 180px;
+   width: 200px;
    height: 35px;
    border-radius: 25px;
 
@@ -255,7 +251,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px; 
-    border: 2px solid white;   
+    border: 4px solid white;   
 }
 .info1
 {
@@ -298,7 +294,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px;
-    border: 2px solid white; 
+    border: 4px solid white; 
 }
 .info2
 {
@@ -334,7 +330,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px;
-    border: 2px solid white;  
+    border: 4px solid white;  
 }
 .info3
 {
@@ -370,7 +366,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px; 
-    border: 2px solid white; 
+    border: 4px solid white; 
 }
 .info4
 {
@@ -406,7 +402,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px;
-    border: 2px solid white; 
+    border: 4px solid white; 
 }
 .info5
 {
@@ -442,7 +438,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px; 
-    border: 2px solid white;
+    border: 4px solid white;
 }
 .info6
 {
@@ -492,7 +488,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 0px 0px 15px;
-    border: 2px solid white;
+    border: 4px solid white;
 }
 .topinfo1
 {
@@ -525,7 +521,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 0px 0px 15px;
-    border: 2px solid white;
+    border: 4px solid white;
 }
 .topinfo2
 {
@@ -558,7 +554,7 @@ h2
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 0px 0px 15px;
-    border: 2px solid white;
+    border: 4px solid white;
 }
 .topinfo3
 {
