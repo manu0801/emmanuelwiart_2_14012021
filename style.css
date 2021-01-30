@@ -98,7 +98,7 @@ h2
 .bouton
 {
     background-color: #0065fc;
-    width: 125px;
+    width: 130px;
     height: 40px;
     font-size: 20px ;
     font-weight: 600;
@@ -238,7 +238,8 @@ h2
 {
     grid-area: 5 / 2 / 6 / 3;
     font-size: 15px;
-    padding: 10px 10px 10px 0px;
+    padding: 30px 10px 10px 0px;
+    
 }
 
 .carte1
