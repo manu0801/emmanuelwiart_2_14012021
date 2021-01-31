@@ -575,6 +575,11 @@ h1
     display: grid;
     grid-template: 70px 135px 25px 135px 25px 135px 20px / 25px 150px 150px 25px 
 }
+.top a
+{
+    text-decoration: none;
+    color: black;
+}
 .fa-chart-line
 {
     grid-area: 1 / 4;
@@ -600,6 +605,10 @@ h1
     border-radius: 15px;
     transition: 0.5s;
 
+}
+.topclik1
+{
+    grid-area: 2 / 2 / 3 / 4 ;
 }
 .topcarte1:hover
 {
@@ -641,6 +650,10 @@ h1
     transition: 0.5s;
 
 }
+.topclik2
+{
+    grid-area: 4 / 2 / 5 / 4 ;
+}
 .topcarte2:hover
 {
     
@@ -680,6 +693,10 @@ h1
     border-radius: 15px;
     transition: 0.5s;
 
+}
+.topclik3
+{
+    grid-area: 6 / 2 / 7 / 4 ;
 }
 .topcarte3:hover
 {
