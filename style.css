@@ -2,9 +2,7 @@
 @font-face 
 {
     font-family: 'raleway';
-    src :url(font/Raleway-Italic-VariableFont_wght.ttf),
-         
-    
+    src :url(font/Raleway-Italic-VariableFont_wght.ttf),    
 }
 body
 {
@@ -24,8 +22,7 @@ body
 }
 /*titres et logo fini*/
 #titre_principal h1 
-{
-  
+{  
   margin-bottom: 0%;
   padding-bottom: 0%;
   font-size: 1.5em;
@@ -37,13 +34,11 @@ h2
     padding-top: 10px;
     font-size: 1em;
 }
-/*navigation ne pas oublier les ancres*/
+/*navigation*/
 .header nav ul
-{
-    
+{    
     list-style-type: none;
-    display: flex;
-    
+    display: flex;    
 }
 .header  nav li
 {
@@ -68,7 +63,6 @@ h2
     border-top: none;
     font-weight: 600;
 }
-
 /*barre de recherche*/
 .fa-map-marker-alt
 {    
@@ -77,14 +71,12 @@ h2
     border-radius: 10px 0px 0px 10px;    
 }
 .recherche
-{
-    
+{    
     width: 30% ;
     height: 40px;
     justify-content: space-around;
     border: 1px solid #f2f2f2;
-    border-radius: 10px;    
-    
+    border-radius: 10px;     
 }
 .champs
 {
@@ -92,8 +84,7 @@ h2
     width: 210px;
     height: 37px;
     font-size: 1em;
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
 .bouton
 {
@@ -103,18 +94,13 @@ h2
     font-size: 20px ;
     font-weight: 600;
     border: none;
-    border-radius: 0px 10px 10px 0px; 
-
-        
+    border-radius: 0px 10px 10px 0px;        
 }
-
 /*ne plus toucher*/
 #logements
-{
-    
+{    
     line-height: 80px ;
 }
-
 .fa-info
 {
     color: #0065fc;
@@ -123,8 +109,7 @@ h2
     border-color: #f2f2f2;
     padding: 5px 10px 5px 10px;
 }
-
-/*filtre manque le hover*/
+/*filtre*/
 .filtres 
 {
     width: 70%;
@@ -133,8 +118,7 @@ h2
   justify-content: space-around;
     align-items: center;
     font-size: 1em;
-    font-weight: 600;
-  
+    font-weight: 600;  
 }
 .filtres input[type="checkbox"]
 {
@@ -151,8 +135,7 @@ label a
    border: 1px solid #f2f2f2;
    width: 150px;
    height: 36px;
-   border-radius: 25px;
-   
+   border-radius: 25px;   
 }
 .fa-money-bill-wave
 {
@@ -180,8 +163,7 @@ label a
     color: #0065fc;
     padding:  10px 11px 10px 11px;
     border-radius: 25px;
-    background-color: #deebff;
-    
+    background-color: #deebff;    
 }
 .checkbox2:hover
 {
@@ -189,23 +171,19 @@ label a
     border-radius: 25px; 
     font-weight: 600;   
 }
-
-
 .checkbox3
 {
    border: 1px solid #f2f2f2;
    width: 150px;
    height: 35px;
-   border-radius: 25px;
-   
+   border-radius: 25px;   
 }
 .fa-heart
 {
     color: #0065fc;
     padding: 10px;
     border-radius: 25px;
-    background-color: #deebff;
-    
+    background-color: #deebff;    
 }
 .checkbox3:hover
 {
@@ -213,15 +191,12 @@ label a
     border-radius: 25px; 
     font-weight: 600;   
 }
-
 .checkbox4
 {
    border: 1px solid #f2f2f2;
    width: 200px;
    height: 35px;
-   border-radius: 25px;
-
-   
+   border-radius: 25px;   
 }
 
 .fa-dog
@@ -229,8 +204,7 @@ label a
     color: #0065fc;
     padding: 10px;
     border-radius: 25px;
-    background-color: #deebff;
-    
+    background-color: #deebff;    
 }
 .checkbox4:hover
 {
@@ -238,7 +212,6 @@ label a
     border-radius: 25px; 
     font-weight: 600;   
 }
-
 /*resultats*/
 .resultats
 {
@@ -246,7 +219,7 @@ label a
     justify-content: space-around;
     width: auto;
 }
-/*hebergement manque les etoiles*/
+/*hebergement*/
 .hebergement
 {
    width: 830px;
@@ -267,8 +240,7 @@ h1
 {
     grid-area: 5 / 2 / 6 / 3;
     font-size: 15px;
-    padding: 30px 10px 10px 0px;
-    
+    padding: 30px 10px 10px 0px;    
 }
 .hebergement a
 {
@@ -289,15 +261,12 @@ h1
     transition: 0.5s;
 }
 .clik1
-{
-   
+{   
     grid-area: 2 / 2 / 3 / 3 ;
 }
 .carte1:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+   transform: scale(1.1);     
 }
 .divimg1
 {
@@ -306,30 +275,26 @@ h1
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 15px 15px 0px 0px; 
-    border: 4px solid white;
-       
+    border: 4px solid white;       
 }
 .info1
 {
     grid-area: 3 / 1 / 4 / 4 ;
     font-size: 15px;
     font-weight: 600;
-    padding: 5px ;
-        
+    padding: 5px ;        
 }
 .prix1
 {
     grid-area: 4 / 1 / 5 / 4 ;
     font-size: 10px;
-    padding: 5px ;
-    
+    padding: 5px ;    
 }
 .fa-star
 {
     color: #0065fc;
     grid-area: 5 / 1 / 6 / 2 ;
-    font-size: 0.7em;
-    
+    font-size: 0.7em;    
 }
 .carte2 
 {
@@ -342,19 +307,15 @@ h1
     border-radius: 15px ; 
     grid-area: 2 / 4 / 4 / 5; 
     transition: 0.5s;
-
 }
 .clik2
 {
     grid-area: 2 / 4 / 4 / 5 ;
     height: 185px;
-
 }
 .carte2:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+   transform: scale(1.1);    
 }
 .divimg2
 {
@@ -389,7 +350,6 @@ h1
     border-radius: 15px ; 
     grid-area: 2 / 6 / 4 / 7; 
     transition: 0.5s;
-
 }
 .clik3
 {
@@ -397,10 +357,8 @@ h1
     height: 185px;
 }
 .carte3:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .divimg3
 {
@@ -435,7 +393,6 @@ h1
     border-radius: 15px ; 
     grid-area: 4 / 2 / 6 / 3;
     transition: 0.5s;
-
 }
 .clik4
 {
@@ -443,10 +400,8 @@ h1
     height: 185px;
 }
 .carte4:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .divimg4
 {
@@ -481,7 +436,6 @@ h1
     border-radius: 15px ; 
     grid-area: 4 / 4 / 6 / 5; 
     transition: 0.5s;
-
 }
 .clik5
 {
@@ -489,10 +443,8 @@ h1
     height: 185px;
 }
 .carte5:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .divimg5
 {
@@ -527,7 +479,6 @@ h1
     border-radius: 15px ; 
     grid-area: 4 / 6 / 6 / 6; 
     transition: 0.5s;
-
 }
 .clik6
 {
@@ -535,10 +486,8 @@ h1
     height: 185px;
 }
 .carte6:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .divimg6
 {
@@ -566,7 +515,7 @@ h1
 {
     display: flex;
 }
-/*populaires manque le logo coin haut droit*/
+/*populaires*/
 .top
 {
     background-color: #f2f2f2;
@@ -586,7 +535,6 @@ h1
     grid-area: 1 / 4;
     font-size: 1.5em;
     padding: 25px;
-
 }
 .top h1
 {
@@ -605,17 +553,14 @@ h1
     grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
     transition: 0.5s;
-
 }
 .topclik1
 {
     grid-area: 2 / 2 / 3 / 4 ;
 }
 .topcarte1:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .topimg1
 {
@@ -649,17 +594,14 @@ h1
     grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
     transition: 0.5s;
-
 }
 .topclik2
 {
     grid-area: 4 / 2 / 5 / 4 ;
 }
 .topcarte2:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .topimg2
 {
@@ -693,17 +635,14 @@ h1
     grid-template: 55px 45px 35px / 145px 200px ;
     border-radius: 15px;
     transition: 0.5s;
-
 }
 .topclik3
 {
     grid-area: 6 / 2 / 7 / 4 ;
 }
 .topcarte3:hover
-{
-    
-        transform: scale(1.1);    
-    
+{    
+    transform: scale(1.1);    
 }
 .topimg3
 {
@@ -727,17 +666,14 @@ h1
     font-size: 10px;
     padding: 10px;
 }
-
-/*activité reste a finir la mises en pages certainement modifier les grilles*/
+/*activité*/
 .activites
 {
     width: auto;
     height: 600px;
     display: grid;
     justify-content: right;
-    grid-template: 70px 150px 30px 60px 60px 50px 150px 30px /  300px 20px 300px 20px 300px 20px 300px ;
-    
-    
+    grid-template: 70px 150px 30px 60px 60px 50px 150px 30px /  300px 20px 300px 20px 300px 20px 300px ;    
 }
 .activites a
 {
@@ -750,7 +686,6 @@ h1
     font-size: 20px;
    padding: 10px 10px 10px 0px;
    font-weight: 700;
-
 }
 .activites1
 {
@@ -764,10 +699,8 @@ h1
     transition: 1s;
 }
 .acticlik1:hover
-{
-    
-        transform: rotate(2deg)    
-    
+{    
+    transform: rotate(2deg)    
 }
 .acticlik1
 {
@@ -801,10 +734,8 @@ h1
     transition: 1s;
 }
 .acticlik2:hover
-{
-    
-    transform: rotate(2deg);
-    
+{    
+    transform: rotate(2deg);   
 }
 .acticlik2
 {
@@ -825,7 +756,6 @@ h1
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
 } 
-
 .activites3
 {
     width: 300px ;
@@ -838,10 +768,8 @@ h1
     transition: 1s;
 }
 .acticlik3:hover
-{
-    
-        transform: rotate(2deg);    
-    
+{    
+    transform: rotate(2deg);    
 }
 .acticlik3
 {
@@ -863,7 +791,6 @@ h1
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
 } 
-
 .activites4
 {
     width: 300px ;
@@ -876,16 +803,13 @@ h1
     transition: 1s;
 }
 .acticlik4:hover
-{
-    
-        transform: rotate(2deg);    
-    
+{    
+    transform: rotate(2deg);    
 }
 .acticlik4
 {
     grid-area: 2 / 6 / 8 / 7;
 }
-
 .img4
 {
     grid-area: 1 / 1 / 2 / 2;
@@ -913,10 +837,8 @@ h1
     transition: 1s;
 }
 .acticlik5:hover
-{
-    
-        transform: rotate(2deg);    
-    
+{    
+    transform: rotate(2deg);    
 }
 .acticlik5
 {
@@ -936,8 +858,7 @@ h1
     font-size: 15px;
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
-} 
-
+}
 .activites6
 {
     width: 300px ;
@@ -950,10 +871,8 @@ h1
     transition: 1s;
 }
 .acticlik6:hover
-{
-    
-        transform: rotate(2deg);    
-    
+{    
+    transform: rotate(2deg);    
 }
 .acticlik6
 {
@@ -974,10 +893,8 @@ h1
     font-size: 15px;
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
-} 
-
-/* footer fini*/
-
+}
+/* footer*/
 #navfooter
 {
     width: auto;
@@ -987,8 +904,7 @@ h1
     justify-content: space-between;
     font-size: 1.2em;
     font-weight: 600;
-    background-color: #f2f2f2;
-    
+    background-color: #f2f2f2;    
 }
 .apropos ul li
 {
@@ -997,12 +913,10 @@ h1
 .Noshebergement li
 {
     list-style-type: none;
-
 }
 .assistance li
 {
     list-style-type: none;
-
 }
 #navfooter nav a
 {
@@ -1013,6 +927,5 @@ h1
 } 
 #navfooter nav a:hover
 {
-    color: #0065fc;
-    
+    color: #0065fc;    
 }
