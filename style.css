@@ -60,7 +60,7 @@ h2
 #sinscrire
 {
     color: #0065fc;
-    border-top: none;
+    
     font-weight: 600;
 }
 /*barre de recherche*/
@@ -118,8 +118,10 @@ h2
   justify-content: space-around;
     align-items: center;
     font-size: 1em;
-    font-weight: 600;  
+    font-weight: 600; 
+   
 }
+
 .filtres input[type="checkbox"]
 {
   -webkit-appearance : none;
@@ -219,7 +221,7 @@ label a
     justify-content: space-around;
     width: auto;
 }
-/*hebergement*/
+    /*hebergement*/
 .hebergement
 {
    width: 830px;
@@ -240,6 +242,7 @@ h1
 {
     grid-area: 5 / 2 / 6 / 3;
     font-size: 15px;
+    font-weight: 600;
     padding: 30px 10px 10px 0px;    
 }
 .hebergement a
@@ -902,7 +905,7 @@ h1
     display: flex;
     padding: 25px 350px 25px 25px ;
     justify-content: space-between;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
     background-color: #f2f2f2;    
 }
@@ -921,7 +924,8 @@ h1
 #navfooter nav a
 {
     color: black;
-    font-size: 0.5em;
+    font-size: 0.7em;
+    font-weight: 100;
     padding-bottom: 10px;
     text-decoration: none;
 } 
