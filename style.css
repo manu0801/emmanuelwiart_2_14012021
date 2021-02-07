@@ -4,6 +4,25 @@
     font-family: 'raleway';
     src :url(font/Raleway-Italic-VariableFont_wght.ttf),    
 }
+@media screen and (max-width: 750px)
+{
+    body
+    {
+        width: 750px;
+    }
+    .header
+    {
+        flex-direction: row;
+    }
+    .resultats
+    {
+        flex-direction: column-reverse;
+    }
+    .filtres
+    {
+        flex-direction: column;
+    }
+}
 body
 {
     width: 1270px;
