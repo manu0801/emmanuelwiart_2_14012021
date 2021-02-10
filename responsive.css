@@ -1,0 +1,98 @@
+@media screen and (max-width: 375px)
+{
+    body
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .header
+    {
+            
+    }
+    .navigation ul 
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;                
+    }    
+    #logo
+    {
+        width: 100%;
+    }
+    section
+    {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .hebergement
+    {
+        width: auto;        
+        flex-direction: column;        
+    }
+    #hotels
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    aside
+    {
+        width: 100%;
+    }
+    .filtres
+    {
+        flex-wrap: wrap;
+    }
+    #activité
+    {
+        flex-direction: column;
+    }
+    
+    .activites1
+    { 
+        width: 375px;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;  
+    }
+    
+    .activites2
+    {    
+        width: 375px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;    
+    }
+.activites3
+    {
+        width: 375px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;    
+    }
+.activites4
+    {
+        width: 375px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;   
+    }
+.activites5
+    {
+        width: 375px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;   
+    }
+.activites6
+    {
+        width: 375px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 375px ;   
+    }
+
+    #navfooter
+    {        
+        flex-direction: column;             
+    }
+}
