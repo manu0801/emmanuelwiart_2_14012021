@@ -2,23 +2,26 @@
 {
     body
     {
-        width: auto;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
     }
     .header
     {
-            
+         width: auto; 
     }
-    .navigation ul 
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;                
-    }    
     #logo
     {
-        width: 100%;
+        width: auto;
     }
+    .navigation
+    {
+        width: 80%;    
+    }
+    .navigation nav ul 
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+                        
+    }    
     section
     {
         width: 100%;
@@ -45,52 +48,56 @@
     #activité
     {
         flex-direction: column;
-    }
-    
+        margin: 10px;
+
+    }    
     .activites1
     { 
-        width: 375px;
+        width: 350px;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;  
-    }
-    
+        grid-template:  200px 50px / 350px ;  
+    }    
     .activites2
     {    
-        width: 375px ;
+        width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;    
+        grid-template:  200px 50px / 350px ;    
     }
-.activites3
+    .activites3
     {
-        width: 375px ;
+        width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;    
+        grid-template:  200px 50px / 350px ;    
     }
-.activites4
+    .activites4
     {
-        width: 375px ;
+        width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;   
+        grid-template:  200px 50px / 350px ;   
     }
-.activites5
+    .activites5
     {
-        width: 375px ;
+        width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;   
+        grid-template:  200px 50px / 350px ;   
     }
-.activites6
+    .activites6
     {
-        width: 375px ;
+        width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 375px ;   
+        grid-template:  200px 50px / 350px ;   
     }
-
+    footer
+    {
+        width: auto;
+        margin: 10px;
+    }
     #navfooter
     {        
         flex-direction: column;             

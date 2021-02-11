@@ -7,6 +7,8 @@
 body
 {
     width: 1270px;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     font-family: 'raleway', Arial, Helvetica, sans-serif
 }
@@ -18,53 +20,59 @@ header
     position: relative;
     display: flex;
     justify-content: space-around; 
-    background-color: darkorange;   
+       
 }
 /*titres et logo fini*/
 #logo
 {
     width: 70%;
+    
+}
+#titre_principal
+{
+    width: 50%;
 }
 #titre_principal h1 
 {  
   margin-bottom: 0%;
   padding-bottom: 0%;
-  font-size: 1.5em;  
+  font-size: 1.5em;
+  
 }
 #titre_principal h2
 {
     font-weight: 200;
     margin-top: 0%;
     padding-top: 10px;
-    font-size: 1em;    
+    font-size: 1em; 
+       
 }
 /*navigation*/
 .navigation
 {
     width: 30%;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
     padding-top: 10px;
     position: relative;
     margin: 0px;
-    background-color: chartreuse;    
+     
 }
-.navigation nav ul
-{    
-    width: 40%;
-    list-style-type: none;
-    display: flex; 
-    margin: 0px;   
-}
-.navigation  nav li
+
+.navigation  nav 
 {
+    
     margin-right: 20px;   
 }
 .navigation nav a
 {
+    
     color: black;
     font-size: 1.2em;
-    padding-bottom: 10px;
+    padding: 10px;
     text-decoration: none;
+    
 }
 .navigation nav a:hover 
 {
@@ -877,7 +885,7 @@ article h1
     font-weight: 600;
     padding: 10px 10px 10px 5px ;    
 }
-/* footer*/
+/* footer terminé css et responsive*/
 footer
 {
     background-color: #f2f2f2;
