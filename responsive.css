@@ -25,7 +25,12 @@
         display: flex;
         flex-wrap: wrap;
                         
-    }    
+    } 
+    #titre_principal
+    {
+        width: auto;
+        flex-wrap: wrap;
+    }   
     section
     {
         width: 100%;
