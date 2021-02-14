@@ -3,10 +3,14 @@
     body
     {
         width: 100%;
+        flex-direction: column;
+        
     }
     .header
     {
-         width: auto; 
+         width: auto;
+         display: flex;
+         flex-direction: column; 
     }
     #logo
     {
@@ -16,27 +20,29 @@
     {
         width: 80%;    
     }
-    .navigation nav ul 
+    .navigation nav 
     {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
                         
     }    
     section
     {
         width: 100%;
+        height: auto;
+        display: flex;
         flex-direction: column-reverse;
-    }
-    .hebergement
-    {
-        width: auto;        
-        flex-direction: column;        
     }
     #hotels
     {
         width: 100%;
-        flex-direction: column;
+        height: auto;
+        grid-template-columns: 240px;
+        grid-template-rows: repeat(6, 185px);
+        row-gap: 15px;
+
     }
+    
     aside
     {
         width: 100%;
