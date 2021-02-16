@@ -47,8 +47,7 @@ header
 }
 /*navigation*/
 .navigation a
-{     
-    
+{    
     font-size: 1.2em;
     font-weight: 600;
     color: black;   
@@ -76,8 +75,7 @@ nav a:hover
     color: #0065fc;
     border-top: 3px solid ;
     padding-top: 40px;
-    margin-top: 10px;
-        
+    margin-top: 10px;        
 }
 #sinscrire
 {
@@ -87,10 +85,8 @@ nav a:hover
     padding: 10px;
     text-decoration: none;
     padding-top: 40px;
-    margin-top: 10px;
-  
+    margin-top: 10px;  
 }
-
 /*barre de recherche*/
 .fa-map-marker-alt
 {    
@@ -138,17 +134,34 @@ nav a:hover
     padding: 5px 10px 5px 10px;
 }
 /*filtre*/
-.filtres 
+#filtres 
 {
     width: 70%;
     height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 1em;
-    font-weight: 600;     
+    font-weight: 600;      
 }
-.filtres input[type="checkbox"]
+.choix
+{
+    width: 100%;    
+    display: flex;    
+}
+#checkbox1et2
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;    
+}
+#checkbox3et4
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;   
+}
+.choix input[type="checkbox"]
 {
     -webkit-appearance : none;
     -moz-appearance : none;
@@ -163,7 +176,7 @@ label a
    border: 1px solid #f2f2f2;
    width: 150px;
    height: 36px;
-   border-radius: 25px;   
+   border-radius: 25px;    
 }
 .fa-money-bill-wave
 {
@@ -184,7 +197,7 @@ label a
    border: 1px solid #f2f2f2;
    width: 130px;
    height: 35px;
-   border-radius: 25px;
+   border-radius: 25px;   
 }
 .fa-child
 {    

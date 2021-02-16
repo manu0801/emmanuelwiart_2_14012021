@@ -23,14 +23,17 @@
     .navigation nav 
     {
         display: flex;
-        flex-wrap: wrap;
-                        
+        flex-wrap: wrap;                        
     } 
     #titre_principal
     {
         width: auto;
         flex-wrap: wrap;
-    }   
+    }
+    .bouton
+    {
+       
+    }
     section
     {
         width: 100%;
@@ -52,10 +55,48 @@
     {
         width: 100%;
     }
-    .filtres
+    #filtres
     {
-        flex-wrap: wrap;
+        width: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;        
     }
+    .choix
+    {
+        width: 90%;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin-top: 10px;
+    }
+    #titre
+    {
+        margin-left: 10px;
+    }
+    #checkbox1et2
+    {
+        width: 100%;
+    }
+    #checkbox3et4
+    {
+        width: auto;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        justify-content: flex-start;
+        
+    
+    }
+    .checkbox3
+    {
+        margin-top: 10px;
+        
+    }
+    .checkbox4
+    {
+        margin-top: 10px;
+        
+    }
+
     #activité
     {
         flex-direction: column;
