@@ -3,8 +3,7 @@
     body
     {
         width: 100%;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     .header
     {
@@ -48,9 +47,7 @@
         grid-template-columns: 240px;
         grid-template-rows: repeat(6, 185px);
         row-gap: 15px;
-
-    }
-    
+    }    
     aside
     {
         width: 100%;
@@ -58,10 +55,20 @@
     #filtres
     {
         width: auto;
+        height: auto;
         flex-direction: column;
         justify-content: space-between;
         align-items: baseline;        
     }
+    #logements
+    {
+        width: auto;
+        align-items: baseline;
+        line-height: 20px;
+        padding: 10px;
+    }
+    
+    
     .choix
     {
         width: 90%;
@@ -82,26 +89,20 @@
         width: auto;
         flex-wrap: wrap;
         padding-left: 10px;
-        justify-content: flex-start;
-        
-    
+        justify-content: flex-start;    
     }
     .checkbox3
     {
-        margin-top: 10px;
-        
+        margin-top: 10px;        
     }
     .checkbox4
     {
-        margin-top: 10px;
-        
+        margin-top: 10px;        
     }
-
     #activité
     {
         flex-direction: column;
         margin: 10px;
-
     }    
     .activites1
     { 
@@ -148,10 +149,13 @@
     footer
     {
         width: auto;
+        height: auto;
         margin: 10px;
     }
     #navfooter
     {        
+        width: 100% ;
+        height: auto;
         flex-direction: column;             
     }
 }

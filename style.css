@@ -124,6 +124,10 @@ nav a:hover
 #logements
 {    
     line-height: 80px ;
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }
 .fa-info
 {
@@ -131,7 +135,7 @@ nav a:hover
     border-radius: 25px;
     border: 1px solid;
     border-color: #f2f2f2;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;    
 }
 /*filtre*/
 #filtres 
