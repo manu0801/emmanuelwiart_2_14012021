@@ -70,7 +70,7 @@ nav
     display: flex;
     margin-right: 30px;  
 }
-nav a:hover 
+.navigation nav a:hover 
 {
     color: #0065fc;
     border-top: 3px solid ;
@@ -90,7 +90,7 @@ nav a:hover
 /*barre de recherche*/
 .fa-map-marker-alt
 {    
-    padding: 11px 10px 11px 10px ;
+    padding: 11px 11px 11px 11px ;
     background-color: #f2f2f2;
     border-radius: 10px 0px 0px 10px;    
 }
@@ -672,7 +672,7 @@ aside a:hover
     font-size: 10px;
     padding: 10px;
 }
-/*activité et footer fini css et responsive*/
+/*activité fini css et responsive*/
 article
 {
     width: 100%;
@@ -947,5 +947,6 @@ footer h2
 } 
 #navfooter nav a:hover
 {
-    color: #0065fc;    
+    color: #0065fc; 
+    text-decoration: underline;   
 }

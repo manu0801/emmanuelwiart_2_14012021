@@ -29,9 +29,19 @@
         width: auto;
         flex-wrap: wrap;
     }
+    .recherche
+    {
+        width: 90%;
+        margin-left: 10px;
+    }
+    .champs
+    {
+        width: 75%;
+    }
     .bouton
     {
-       
+       width: 42px;
+       border-radius: 10px;
     }
     section
     {
