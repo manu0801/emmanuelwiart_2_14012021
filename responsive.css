@@ -5,25 +5,37 @@
         width: 100%;
         flex-direction: column;        
     }
-    .header
+    header
     {
          width: auto;
-         display: flex;
-         flex-direction: column; 
+         flex-direction: column;         
     }
     #logo
     {
-        width: auto;
+        width: 30%;        
+        padding-top: 10px;        
     }
-    .navigation
-    {
-        width: 80%;    
+    #menu
+    {        
+        justify-content: space-between;
+        border-bottom: 3px solid #f2f2f2;            
     }
-    .navigation nav 
+    #menu a:focus 
     {
-        display: flex;
-        flex-wrap: wrap;                        
-    } 
+    color: #0065fc;
+    border-bottom: 3px solid ;
+    }
+    #navigation
+    {        
+        flex-direction: column-reverse;       
+    }
+    #inscription
+    {
+        width: 20%;
+        padding-top: 10px;
+        margin-left: 260px;
+        margin-top: -45px;
+    }
     #titre_principal
     {
         width: auto;
