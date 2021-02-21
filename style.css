@@ -119,7 +119,8 @@ header
     display: flex;
     justify-content: space-around;
     border: 1px solid #f2f2f2;
-    border-radius: 10px;       
+    border-radius: 10px;
+         
 }
 .champs
 {
@@ -138,6 +139,20 @@ header
     font-weight: 600;
     border: none;
     border-radius: 0px 10px 10px 0px;        
+}
+.fa-search
+{
+    padding: 11px 11px 11px 11px ;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+}
+#loupe
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;    
+    background-color: #0065fc;
+    display: none;
 }
 /*ne plus toucher*/
 #logements
@@ -343,7 +358,7 @@ section
    transform: scale(1.05);     
 }
 /*debut des cartes*/
-.carte1
+.carte
 {
     width: 240px;
     height: 185px;
@@ -382,17 +397,6 @@ section
     grid-area: 5 / 1 / 6 / 2 ;
     font-size: 0.7em;    
 }
-.carte2 
-{
-    width: 240px;
-    height: 185px;    
-    background-color: white;
-    display: grid;
-    grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,80px);    
-    border-radius: 15px;
-    transition: 1s;
-}
 .divimg2
 {
     grid-area: 1 / 1 / 3 / 4;
@@ -414,17 +418,6 @@ section
     grid-area: 4 / 1 / 5 / 4 ;
     font-size: 10px;
     padding: 5px ;
-}
-.carte3 
-{
-    width: 240px;
-    height: 185px;    
-    background-color: white;
-    display: grid;
-    grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3, 80px);    
-    border-radius: 15px ;     
-    transition: 1s;
 }
 .divimg3
 {
@@ -448,17 +441,6 @@ section
     font-size: 10px;
     padding: 5px ;
 }
-.carte4 
-{
-    width: 240px;
-    height: 185px;    
-    background-color: white;
-    display: grid;
-    grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,80px);    
-    border-radius: 15px ;     
-    transition: 1s;
-}
 .divimg4
 {
     grid-area: 1 / 1 / 3 / 4;
@@ -481,17 +463,6 @@ section
     font-size: 10px;
     padding: 5px ;
 }
-.carte5 
-{
-    width: 240px;
-    height: 185px;    
-    background-color: white;
-    display: grid;
-    grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,80px);    
-    border-radius: 15px ;      
-    transition: 1s;
-}
 .divimg5
 {
     grid-area: 1 / 1 / 3 / 4;
@@ -513,17 +484,6 @@ section
     grid-area: 4 / 1 / 5 / 4 ;
     font-size: 10px;
     padding: 5px ;
-}
-.carte6 
-{
-    width: 240px;
-    height: 185px;    
-    background-color: white;
-    display: grid;
-    grid-template: repeat(2, 55px) repeat(3,25px)
-    /repeat(3,80px);    
-    border-radius: 15px ;     
-    transition: 1s;
 }
 .divimg6
 {
@@ -588,7 +548,7 @@ aside h1
    padding: 0px 10px 10px 0px;
    font-weight: 700;
 }
-.topcarte1
+.topcarte
 {
     width: 345px;
     height: 135px;
@@ -626,17 +586,7 @@ aside a:hover
     font-size: 10px;
     padding: 10px;
 }
-.topcarte2
-{
-    width: 345px;
-    height: 135px;
-    background-color: white;
-    display: grid;
-    margin-top: 0px;    
-    grid-template: 55px 45px 35px / 145px 200px ;
-    border-radius: 15px;
-    transition: 1s;
-}
+
 .topimg2
 {
     grid-area: 1 / 1 /4 / 2;
@@ -659,16 +609,7 @@ aside a:hover
     font-size: 10px;
     padding: 10px;
 }
-.topcarte3
-{
-    width: 345px;
-    height: 135px;
-    background-color: white;
-    display: grid;    
-    grid-template: 55px 45px 35px / 145px 200px ;
-    border-radius: 15px;
-    transition: 1s;
-}
+
 .topimg3
 {
     grid-area: 1 / 1 /4 / 2;

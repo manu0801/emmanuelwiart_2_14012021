@@ -13,17 +13,28 @@
     #logo
     {
         width: 30%;        
-        padding-top: 10px;        
+        padding-top: 10px;
+        padding-left: 10px;        
     }
     #menu
     {        
         justify-content: space-between;
-        border-bottom: 3px solid #f2f2f2;            
+        border-bottom: 3px solid #f2f2f2;
+                   
+    }
+    #menu a:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid;
+        padding-bottom: 10px;
+        
     }
     #menu a:focus 
     {
     color: #0065fc;
-    border-bottom: 3px solid ;
+    
+    
+    
     }
     #navigation
     {        
@@ -40,11 +51,13 @@
     {
         width: auto;
         flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .recherche
     {
-        width: 90%;
-        margin-left: 10px;
+        width: 85%;
+        margin-left: 20px;
     }
     .champs
     {
@@ -52,10 +65,12 @@
     }
     .bouton
     {
-       width: 42px;
-       border-radius: 10px;
-    }
-    
+       display: none;
+    } 
+    #loupe
+    {
+        display: block ;
+    }   
     #filtres
     {
         width: auto;
@@ -128,7 +143,7 @@
     {
         width: 100%;
     }
-    .carte1
+    .carte
     {
         width: 345px;
         display: grid;
@@ -136,45 +151,9 @@
         /repeat(3, 115px);
         box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
     }
-    .carte2
+        article h1
     {
-        width: 345px;
-        display: grid;
-        grid-template: repeat(2, 55px) repeat(3,25px)
-        /repeat(3, 115px); 
-        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
-    }
-    .carte3
-    {
-        width: 345px;
-        display: grid;
-        grid-template: repeat(2, 55px) repeat(3,25px)
-        /repeat(3, 115px); 
-        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
-    }
-    .carte4
-    {
-        width: 345px;
-        display: grid;
-        grid-template: repeat(2, 55px) repeat(3,25px)
-        /repeat(3, 115px); 
-        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
-    }
-    .carte5
-    {
-        width: 345px;
-        display: grid;
-        grid-template: repeat(2, 55px) repeat(3,25px)
-        /repeat(3, 115px); 
-        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
-    }
-    .carte6
-    {
-        width: 345px;
-        display: grid;
-        grid-template: repeat(2, 55px) repeat(3,25px)
-        /repeat(3, 115px);
-        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
+        padding-left: 10px;
     }
     #activité
     {
