@@ -1,3 +1,183 @@
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        width: 100%;
+        flex-direction: column;        
+    }
+    #logo
+    {
+        width: 30%;        
+        padding-left: 10px;        
+    }
+    #titre_principal
+    {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .recherche
+    {
+        width: 50%;
+        margin-left: 20px;
+    }
+    .champs
+    {
+        width: 75%;
+    }
+    #filtres
+    {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;        
+    }    
+    .choix
+    {
+        width: 90%;
+        align-items: baseline;
+        margin-top: 10px;
+    }
+    #titre
+    {
+        margin-left: 10px;
+    }
+    #checkbox1et2
+    {
+        width: 100%;
+    }
+    #checkbox3et4
+    {
+        width: auto;
+        padding-left: 10px;
+        margin-right: 10px;
+        justify-content: space-between;    
+    }
+    .checkbox3
+    {
+        margin-top: 10px;
+        margin-right: 10px;        
+    }
+    .checkbox4
+    {
+        margin-top: 10px;        
+    }
+    #logements
+    {
+        width: auto;
+        justify-content: flex-start;
+        align-items: baseline;
+        line-height: 20px;
+        padding: 10px;
+    }
+    section
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hebergement
+    {
+        width: 100%;        
+    }
+    #hotels
+    {
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 240px);        
+        grid-template-rows: repeat(3, 185px);
+        row-gap: 20px;
+        column-gap: 40px;
+        padding-left: 90px;        
+    } 
+    aside
+    {
+        margin-left: 160px; 
+        background-color: white;      
+    } 
+    .topcarte
+    {
+        box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
+    }
+    article h1
+    {
+        padding-left: 10px;
+    }
+    #activité
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        margin: 10px;
+    } 
+    .petitevignette1
+    {
+        margin-left: 10px;
+    }   
+    .petitevignette2
+    {
+        margin-left: 50px;
+    }
+    .activites1
+    { 
+        width: 350px;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ; 
+        margin-left: -340px; 
+    }    
+    .activites2
+    {    
+        width: 350px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ;          
+    }
+    .activites3
+    {
+        width: 350px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ;    
+    }
+    .activites4
+    {
+        width: 350px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ; 
+        margin-left: -300px;  
+    }
+    .activites5
+    {
+        width: 350px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ;   
+    }
+    .activites6
+    {
+        width: 350px ;
+        height: 250px ;
+        display: grid;
+        grid-template:  200px 50px / 350px ;   
+    }
+    footer
+    {
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+    #navfooter
+    {        
+        width: 100% ;
+        height: auto;
+        display: flex;
+        justify-content: space-around; 
+        margin-left: -40px;            
+    }
+}
 @media screen and (max-width: 375px)
 {
     body
@@ -19,22 +199,17 @@
     #menu
     {        
         justify-content: space-between;
-        border-bottom: 3px solid #f2f2f2;
-                   
+        border-bottom: 3px solid #f2f2f2;                   
     }
     #menu a:hover
     {
         border-top: none;
         border-bottom: 3px solid;
-        padding-bottom: 10px;
-        
+        padding-bottom: 10px;        
     }
     #menu a:focus 
     {
-    color: #0065fc;
-    
-    
-    
+    color: #0065fc;    
     }
     #navigation
     {        
@@ -127,7 +302,6 @@
     {
         width: auto ;
         background-color: white;
-
     }
     #hotels
     {
@@ -142,6 +316,8 @@
     aside
     {
         width: 100%;
+        margin-left: 10px;
+        background-color: #f2f2f2;
     }
     .carte
     {
@@ -150,13 +326,15 @@
         grid-template: repeat(2, 55px) repeat(3,25px)
         /repeat(3, 115px);
         box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
+        
     }
-        article h1
+    article h1
     {
         padding-left: 10px;
     }
     #activité
     {
+        display: flex;
         flex-direction: column;
         margin: 10px;
     }    
@@ -165,42 +343,53 @@
         width: 350px;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;  
+        grid-template:  200px 50px / 350px ; 
+        margin-left: 10px; 
     }    
     .activites2
     {    
         width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;    
+        grid-template:  200px 50px / 350px ;
+        margin-top: 25px;    
     }
     .activites3
     {
         width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;    
+        grid-template:  200px 50px / 350px ; 
+        margin-top: 25px;
     }
     .activites4
     {
         width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;   
+        grid-template:  200px 50px / 350px ; 
+        margin-left: 10px; 
+        margin-top: 25px;
     }
     .activites5
     {
         width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;   
+        grid-template:  200px 50px / 350px ;
+        margin-top: 25px;
     }
     .activites6
     {
         width: 350px ;
         height: 250px ;
         display: grid;
-        grid-template:  200px 50px / 350px ;   
+        grid-template:  200px 50px / 350px ; 
+        margin-top: 25px;
+    }
+    .petitevignette2
+    {
+        margin-left: 10px;
     }
     footer
     {

@@ -119,8 +119,7 @@ header
     display: flex;
     justify-content: space-around;
     border: 1px solid #f2f2f2;
-    border-radius: 10px;
-         
+    border-radius: 10px;         
 }
 .champs
 {
@@ -185,8 +184,7 @@ header
 .choix
 {
     width: 100%;    
-    display: flex;
-     
+    display: flex;     
 }
 #checkbox1et2
 {
@@ -873,6 +871,7 @@ article h1
 footer
 {
     background-color: #f2f2f2;
+    margin-top: 50px;
 }
 #navfooter 
 {    
