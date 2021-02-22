@@ -178,7 +178,7 @@
         margin-left: -40px;            
     }
 }
-@media screen and (max-width: 375px)
+@media screen and (max-width: 414px)
 {
     body
     {
@@ -309,6 +309,7 @@
         height: auto;
         grid-template-columns: 345px;
         padding: 10px;
+        padding-left: 20px;
         grid-template-rows: repeat(6, 185px);
         row-gap: 15px;
         background-color: white;
@@ -316,7 +317,7 @@
     aside
     {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 0;
         background-color: #f2f2f2;
     }
     .carte
@@ -326,6 +327,7 @@
         grid-template: repeat(2, 55px) repeat(3,25px)
         /repeat(3, 115px);
         box-shadow: 0px 5px 10px rgba(0,0, 0, 0.2);
+    
         
     }
     article h1
@@ -337,6 +339,7 @@
         display: flex;
         flex-direction: column;
         margin: 10px;
+        margin-left: 20px;
     }    
     .activites1
     { 
@@ -352,7 +355,8 @@
         height: 250px ;
         display: grid;
         grid-template:  200px 50px / 350px ;
-        margin-top: 25px;    
+        margin-top: 25px;
+          
     }
     .activites3
     {
