@@ -7,8 +7,9 @@ body {
   width: 1270px;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 30px;
   font-family: "raleway", Arial, Helvetica, sans-serif;
+  
 }
 /*css du header*/
 header {
@@ -748,14 +749,19 @@ article h1 {
 footer {
   background-color: #f2f2f2;
   margin-top: 50px;
-}
-#navfooter {
   display: flex;
-  padding: 25px 350px 25px 25px;
-  justify-content: space-between;
+  
+}
+#navfooter{  
+  width: 100%;
+  display: flex;
+  padding: 25px 25px 25px 25px;
+  justify-content: space-around;
   font-size: 1.2em;
   font-weight: 600;
+  
 }
+
 footer h2 {
   font-size: 1.1em;
 }
@@ -768,13 +774,13 @@ footer h2 {
 .assistance li {
   list-style-type: none;
 }
-#navfooter nav a {
+footer nav a {
   color: black;
   font-size: 0.5em;
   padding-bottom: 10px;
   text-decoration: none;
 }
-#navfooter nav a:hover {
+footer nav a:hover {
   color: #0065fc;
   text-decoration: underline;
 }

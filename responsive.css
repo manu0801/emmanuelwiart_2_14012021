@@ -2,6 +2,7 @@
   body {
     width: 100%;
     flex-direction: column;
+    margin: 0;
   }
   #logo {
     width: 30%;
@@ -55,7 +56,7 @@
     justify-content: flex-start;
     align-items: baseline;
     line-height: 20px;
-    padding: 10px;
+    
   }
   section {
     width: 100%;
@@ -65,15 +66,17 @@
   }
   .hebergement {
     width: 100%;
+    
   }
   #hotels {
-    width: 100%;
+    width: auto;
     height: auto;
     grid-template-columns: repeat(2, 240px);
     grid-template-rows: repeat(3, 185px);
     row-gap: 20px;
     column-gap: 40px;
     padding-left: 90px;
+    
   }
   aside {
     margin-left: 160px;
@@ -135,22 +138,23 @@
     grid-template: 200px 50px / 350px;
   }
   footer {
-    width: auto;
-    height: auto;
+     width: auto;
+    height: auto;    
     margin: 10px;
-  }
-  #navfooter {
-    width: 100%;
-    height: auto;
     display: flex;
-    justify-content: space-around;
-    margin-left: -40px;
+    justify-content: space-around;    
   }
+  footer nav{
+    display: flex;
+    justify-content: space-between;
+  }
+ 
 }
 @media screen and (max-width: 414px) {
   body {
     width: 100%;
     flex-direction: column;
+    margin: 0;
   }
   header {
     width: auto;
@@ -259,8 +263,8 @@
     background-color: white;
   }
   aside {
-    width: 100%;
-    margin-left: 0;
+    width: auto;
+    margin-left:0;
     background-color: #f2f2f2;
   }
   .carte {
@@ -329,11 +333,15 @@
   footer {
     width: auto;
     height: auto;
-    margin: 10px;
+    
+    flex-direction: column;
+    
   }
   #navfooter {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
+    width: auto;
+   flex-direction: column;
+   padding: 0; 
+    
+    
   }
 }
