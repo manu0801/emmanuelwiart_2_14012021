@@ -277,7 +277,7 @@ section {
   column-gap: 20px;
   padding: 25px;
 }
-#ancre1 h1 {
+#ancre1 h2 {
   font-size: 20px;
   margin-left: 20px;
   padding-bottom: 0px;
@@ -466,7 +466,7 @@ aside a {
   font-size: 1.5em;
   padding: 15px;
 }
-aside h1 {
+aside h2 {
   font-size: 20px;
   padding: 0px 10px 10px 0px;
   font-weight: 700;
@@ -761,18 +761,14 @@ footer {
   font-weight: 600;
   
 }
-
 footer h2 {
   font-size: 1.1em;
 }
-.apropos ul li {
-  list-style-type: none;
+#navfooter li {
+  list-style-type: none;  
 }
-.Noshebergement li {
-  list-style-type: none;
-}
-.assistance li {
-  list-style-type: none;
+#navfooter ul{
+  padding-left: 0%;
 }
 footer nav a {
   color: black;

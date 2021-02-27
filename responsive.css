@@ -148,7 +148,21 @@
     display: flex;
     justify-content: space-between;
   }
- 
+  .apropos{
+  display:flex;
+  flex-direction: column;
+}
+.Noshebergement{
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+}
+.assistance{
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
 }
 @media screen and (max-width: 414px) {
   body {
@@ -330,18 +344,29 @@
   .petitevignette2 {
     margin-left: 10px;
   }
-  footer {
+  #navfooter {
     width: auto;
     height: auto;
     
     flex-direction: column;
     
   }
-  #navfooter {
+  
+  footer ul {
     width: auto;
    flex-direction: column;
    padding: 0; 
-    
-    
   }
+  .apropos{
+  display:flex;
+  flex-direction: column;
+}
+.Noshebergement{
+  display:flex;
+  flex-direction: column;
+}
+.assistance{
+  display:flex;
+  flex-direction: column;
+}
 }
