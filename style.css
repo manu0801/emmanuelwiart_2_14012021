@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 30px;
+  margin-top: 0;
   font-family: "raleway", Arial, Helvetica, sans-serif;
 }
 /*css du header*/
