@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   margin: 30px;
   font-family: "raleway", Arial, Helvetica, sans-serif;
-  
 }
 /*css du header*/
 header {
@@ -750,24 +749,22 @@ footer {
   background-color: #f2f2f2;
   margin-top: 50px;
   display: flex;
-  
 }
-#navfooter{  
+#navfooter {
   width: 100%;
   display: flex;
   padding: 25px 25px 25px 25px;
   justify-content: space-around;
   font-size: 1.2em;
   font-weight: 600;
-  
 }
 footer h2 {
   font-size: 1.1em;
 }
 #navfooter li {
-  list-style-type: none;  
+  list-style-type: none;
 }
-#navfooter ul{
+#navfooter ul {
   padding-left: 0%;
 }
 footer nav a {
