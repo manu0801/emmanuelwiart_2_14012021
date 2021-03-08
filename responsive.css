@@ -72,8 +72,7 @@
     grid-template-columns: repeat(2, 240px);
     grid-template-rows: repeat(3, 185px);
     row-gap: 20px;
-    column-gap: 40px;
-    padding-left: 90px;    
+    column-gap: 40px;  
   }
   aside {
     margin-left: 160px;
@@ -85,7 +84,7 @@
   article h1 {
     padding-left: 10px;
   }
-  #activité {
+  #activite {
     display: grid;
     grid-template-columns: repeat(2, 350px);
     row-gap: 20px;
@@ -164,8 +163,10 @@
 }
 @media screen and (max-width: 414px) {
   body {
-    width: 100%;
-    flex-direction: column;
+    width: 100%;     
+  }
+  main{
+     flex-direction: column;
     margin: 0;
   }
   header {
@@ -267,11 +268,10 @@
   #hotels {
     width: 100%;
     height: auto;
-    grid-template-columns: 345px;
-    padding: 10px;
-    padding-left: 20px;
+    grid-template-columns: auto;      
     grid-template-rows: repeat(6, 185px);
     row-gap: 15px;
+    align-content: center;
     background-color: white;
   }
   aside {
@@ -280,7 +280,7 @@
     background-color: #f2f2f2;
   }
   .carte {
-    width: 345px;
+    width: 100%;
     display: grid;
     grid-template:
       repeat(2, 55px) repeat(3, 25px)
@@ -290,7 +290,7 @@
   article h1 {
     padding-left: 10px;
   }
-  #activité {
+  #activite {
     display: flex;
     flex-direction: column;
     margin: 10px;

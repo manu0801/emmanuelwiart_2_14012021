@@ -4,18 +4,21 @@
   src: url(font/Raleway-VariableFont_wght.ttf);
 }
 body {
-  width: 1270px;
+  width: auto;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+main{
+  max-width: 1270px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  margin: 30px;
-  margin-top: 0;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
 }
 /*css du header*/
 header {
-  width: auto;
+  max-width: 1270px;
+  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;    
 }
 /*titres et logo fini*/
 #logo {
@@ -37,12 +40,14 @@ header {
   padding-right: 15px;
   padding-left: 15px;
   margin-top: 10px;
+  border-top: 3px solid white;
 }
 .ancre2 {
   padding-top: 40px;
   margin-top: 10px;
   padding-right: 15px;
   padding-left: 15px;
+  border-top: 3px solid white;
 }
 #inscription {
   padding-top: 40px;
@@ -66,6 +71,7 @@ header {
   font-weight: 600;
   text-decoration: none;
   padding-top: 40px;
+  border-top: 3px solid white;
 }
 #inscription a:hover {
   color: #0065fc;
@@ -74,25 +80,28 @@ header {
   margin-top: 10px;
 }
 #titre_principal {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  padding: 20px 0px;
+  padding: 20px 0px;    
 }
 #titre_principal h1 {
   margin-bottom: 0%;
   padding-bottom: 0%;
-  font-size: 1.5em;
+  font-size: 1.5em;  
 }
 #titre_principal h2 {
   font-weight: 200;
   margin-top: 0%;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 1em;
 }
 /*barre de recherche*/
-.fa-map-marker-alt {
-  padding: 11px 11px 11px 11px;
+.icone{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
 }
@@ -102,7 +111,7 @@ header {
   display: flex;
   justify-content: space-around;
   border: 1px solid #f2f2f2;
-  border-radius: 10px;
+  border-radius: 10px;    
 }
 .champs {
   border: none;
@@ -137,15 +146,24 @@ header {
   line-height: 80px;
   width: 36%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;       
+}
+.infotitre h2{
+  font-size: 1em;
+  font-weight: 100;
+} 
+.info{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border-radius: 25px;
+  border: 1px solid #f2f2f2;    
 }
 .fa-info {
-  color: #0065fc;
-  border-radius: 25px;
-  border: 1px solid;
-  border-color: #f2f2f2;
-  padding: 5px 10px 5px 10px;
+  color: #0065fc;    
 }
 /*filtre*/
 #filtres {
@@ -154,12 +172,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 600;   
 }
 .choix {
   width: 100%;
-  display: flex;
+  display: flex;    
 }
 #checkbox1et2 {
   width: 40%;
@@ -175,21 +194,27 @@ header {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-label a {
-  color: black;
-  text-decoration: none;
+label  {
+  color: black;    
 }
 .checkbox1 {
+  display: flex;
+  align-items: center;
   border: 1px solid #f2f2f2;
   width: 150px;
-  height: 36px;
-  border-radius: 25px;
+  height: 40px;
+  border-radius: 25px;  
 }
 .fa-money-bill-wave {
-  color: #0065fc;
-  padding: 10px 10px 10px 10px;
-  border-radius: 25px 25px 25px 25px;
+  color: #0065fc;    
+}
+.icone_filtres{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border-radius: 25px 25px 25px 25px;
   background-color: #deebff;
 }
 .checkbox1:hover {
@@ -198,16 +223,15 @@ label a {
   font-weight: 600;
 }
 .checkbox2 {
+  display: flex;
+  align-items: center;
   border: 1px solid #f2f2f2;
   width: 130px;
-  height: 35px;
+  height: 40px;
   border-radius: 25px;
 }
 .fa-child {
   color: #0065fc;
-  padding: 10px 11px 10px 11px;
-  border-radius: 25px;
-  background-color: #deebff;
 }
 .checkbox2:hover {
   background-color: #deebff;
@@ -215,16 +239,15 @@ label a {
   font-weight: 600;
 }
 .checkbox3 {
+  display: flex;
+  align-items: center;
   border: 1px solid #f2f2f2;
   width: 150px;
-  height: 35px;
+  height: 40px;
   border-radius: 25px;
 }
 .fa-heart {
   color: #0065fc;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #deebff;
 }
 .checkbox3:hover {
   background-color: #deebff;
@@ -232,16 +255,15 @@ label a {
   font-weight: 600;
 }
 .checkbox4 {
+  display: flex;
+  align-items: center;
   border: 1px solid #f2f2f2;
   width: 200px;
-  height: 35px;
+  height: 40px;
   border-radius: 25px;
 }
 .fa-dog {
   color: #0065fc;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #deebff;
 }
 .checkbox4:hover {
   background-color: #deebff;
@@ -250,10 +272,10 @@ label a {
 }
 /*resultats*/
 section {
-  width: 100%;
+  width: auto;
   height: 550px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;    
 }
 /*hebergement*/
 .hebergement {
@@ -263,19 +285,18 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
-  padding: 10px;
   background-color: #f2f2f2;
-  border-radius: 15px;
+  border-radius: 15px;    
 }
 #hotels {
   width: auto;
-  height: 500px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(3, 240px);
   grid-template-rows: repeat(2, 185px);
   row-gap: 20px;
   column-gap: 20px;
-  padding: 25px;
+  justify-content: center;    
 }
 #ancre1 h2 {
   font-size: 20px;
@@ -503,8 +524,7 @@ aside a:hover {
   grid-area: 2 / 2 / 3 / 3;
   font-size: 10px;
   padding: 10px;
-}
-
+}  
 .topimg2 {
   grid-area: 1 / 1 /4 / 2;
   background: url(images/aucoeurdeleau.jpg);
@@ -523,8 +543,7 @@ aside a:hover {
   grid-area: 2 / 2 / 3 / 3;
   font-size: 10px;
   padding: 10px;
-}
-
+}  
 .topimg3 {
   grid-area: 1 / 1 /4 / 2;
   background: url(images/bleuetblanc.jpg);
@@ -546,9 +565,9 @@ aside a:hover {
 }
 /*activité fini css et responsive*/
 article {
-  width: 100%;
+  width: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;    
 }
 article a {
   text-decoration: none;
@@ -560,7 +579,7 @@ article h1 {
   padding: 10px 10px 10px 0px;
   font-weight: 700;
 }
-#activité {
+#activite {
   width: auto;
   display: flex;
   justify-content: space-around;
@@ -747,9 +766,11 @@ article h1 {
 }
 /* footer terminé css et responsive*/
 footer {
+  max-width: 1270px;
   background-color: #f2f2f2;
   margin-top: 50px;
   display: flex;
+  margin: 50px auto;
 }
 #navfooter {
   width: 100%;
@@ -778,3 +799,4 @@ footer nav a:hover {
   color: #0065fc;
   text-decoration: underline;
 }
+
