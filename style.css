@@ -130,6 +130,7 @@ header {
   font-weight: 600;
   border: none;
   border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
 }
 .fa-search {
   padding: 11px 11px 11px 11px;
@@ -197,7 +198,8 @@ header {
   -moz-appearance: none;
 }
 label  {
-  color: black;    
+  color: black; 
+  cursor: pointer;   
 }
 .checkbox1 {
   display: flex;
