@@ -37,23 +37,21 @@ header {
   text-decoration: none;
 }
 .ancre1 {
-  padding-top: 40px;
+  padding-top: 50px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-top: 10px;
   border-top: 3px solid white;
 }
 .ancre2 {
-  padding-top: 40px;
-  margin-top: 10px;
+  padding-top: 50px;
   padding-right: 15px;
   padding-left: 15px;
   border-top: 3px solid white;
 }
 #inscription {
-  padding-top: 40px;
-  margin-top: 10px;
-  padding-right: 30px;
+  padding-top: 53px;
+  padding-right: 40px;
+  font-size: 1.2em
 }
 #menu {
   display: flex;
@@ -68,17 +66,13 @@ header {
 }
 #sinscrire {
   color: #0065fc;
-  font-size: 1.2em;
   font-weight: 600;
   text-decoration: none;
-  padding-top: 40px;
-  border-top: 3px solid white;
 }
 #inscription a:hover {
   color: #0065fc;
   border-top: 3px solid;
-  padding-top: 40px;
-  margin-top: 10px;
+  padding-top: 40px;  
 }
 #titre_principal {
   width: 60%;
@@ -118,9 +112,10 @@ header {
   border: none;
   width: 210px;
   height: 37px;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 700;
   padding: 10px;
+  padding-top: 15px;  
 }
 .bouton {
   background-color: #0065fc;
@@ -199,7 +194,7 @@ header {
 }
 label  {
   color: black; 
-  cursor: pointer;   
+  cursor: pointer; 
 }
 .checkbox1 {
   display: flex;
@@ -207,7 +202,8 @@ label  {
   border: 1px solid #f2f2f2;
   width: 150px;
   height: 40px;
-  border-radius: 25px;  
+  border-radius: 25px;
+  cursor: pointer;  
 }
 .fa-money-bill-wave {
   color: #0065fc;    
@@ -233,6 +229,7 @@ label  {
   width: 130px;
   height: 40px;
   border-radius: 25px;
+  cursor: pointer;
 }
 .fa-child {
   color: #0065fc;
@@ -249,6 +246,7 @@ label  {
   width: 150px;
   height: 40px;
   border-radius: 25px;
+  cursor: pointer;
 }
 .fa-heart {
   color: #0065fc;
@@ -265,6 +263,7 @@ label  {
   width: 200px;
   height: 40px;
   border-radius: 25px;
+  cursor: pointer;
 }
 .fa-dog {
   color: #0065fc;
@@ -582,11 +581,12 @@ article a {
   text-decoration: none;
   color: black;
 }
-article h1 {
+article h2 {
   grid-area: 1 / 2 / 2 / 5;
   font-size: 20px;
   padding: 10px 10px 10px 0px;
   font-weight: 700;
+  margin-left: 10px;
 }
 #activite {
   width: auto;
